@@ -75,14 +75,14 @@ python structure.py -p "Hello, how can you help me?"
 
 Query a specific knowledge base:
 ```bash
-python structure.py -p "summarize the report" -k f047e04f-f879-43a3-abd4-ff0c831165a1
+python structure.py -p "summarize the report" -k knowledge_base_id
 ```
 
 ### Continuing a Conversation Thread
 
 Continue an existing conversation:
 ```bash
-python structure.py -p "Tell me more about that" -t thread_id_12345
+python structure.py -p "Tell me more about that" -t thread_id
 ```
 
 ### Using Custom Rulesets
