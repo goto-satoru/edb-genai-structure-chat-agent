@@ -2,7 +2,7 @@
 
 A Griptape-based conversational agent structure for interacting with knowledge bases through the EDB Postgres AI GenAI Builder platform. This structure provides a powerful interface to query knowledge bases, maintain conversation context, and generate comprehensive responses using AI assistants.
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This tool is provided as **sample code for demonstration and educational purposes only**. It is not an official EnterpriseDB product and is provided "as-is" without any warranties or guarantees.
 
