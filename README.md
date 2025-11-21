@@ -1,6 +1,17 @@
-# sample Structure Chat Agent
+# EDB PGAI GenAI Builder sample Structure - Chat Agent
 
 A Griptape-based conversational agent structure for interacting with knowledge bases through the EDB Postgres AI GenAI Builder platform. This structure provides a powerful interface to query knowledge bases, maintain conversation context, and generate comprehensive responses using AI assistants.
+
+# ⚠️ Disclaimer
+
+This tool is provided as **sample code for demonstration and educational purposes only**. It is not an official EnterpriseDB product and is provided "as-is" without any warranties or guarantees.
+
+**Important Notes**:
+- Use this tool at your own risk
+- Test thoroughly in a development environment before using in production
+- The authors and EnterpriseDB are not responsible for any issues, data loss, or damages that may occur from using this tool
+- Always follow your organization's security and compliance policies when handling API credentials
+
 
 ## 🌟 Features
 
@@ -20,11 +31,11 @@ A Griptape-based conversational agent structure for interacting with knowledge b
 
 ## 🚀 Installation
 
-recommended to run 
+Highly recommended to create Python virtual environment (.venv directory) on Linux x86_64 environement, same as Hybrid Manager.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/goto-satoru/genai-structure-chat-agent structure-chat-agent
+git clone https://github.com/goto-satoru/edb-genai-structure-chat-agent.git structure-chat-agent
 cd structure_chat_agent
 ```
 
@@ -51,6 +62,8 @@ GT_CLOUD_API_KEY=your_HM_access_key
 GT_CLOUD_ASSISTANT_ID=your_assistant_id
 RULES=your_ruleset_id
 ```
+
+you need configure these environment variables in Structure deployment.
 
 ## 🔑 Getting Hybrid Manager Access Key
 
@@ -162,5 +175,9 @@ EnterpriseDB Corporation
 
 ## 🔗 Related Resources
 
-- [EDB Postgres AI AI Factory GenAI Builder Tools](https://www.enterprisedb.com/docs/edb-postgres-ai/latest/ai-factory/gen-ai/structures/)
-- [Griptape Documentation](https://docs.griptape.ai/)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is provided as-is without any warranty or guarantee of fitness for a particular purpose. Use at your own risk. The maintainers and contributors are not responsible for any damages or data loss resulting from the use of this software. Please review and test thoroughly before deploying in production environments.
