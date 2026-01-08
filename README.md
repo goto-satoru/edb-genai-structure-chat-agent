@@ -33,27 +33,35 @@ This tool is provided as **sample code for demonstration and educational purpose
 
 Highly recommended to create Python virtual environment (.venv directory) on Linux x86_64 environement, same as Hybrid Manager.
 
-1. Clone the repository:
+### Clone the repository:
 ```bash
 git clone https://github.com/goto-satoru/edb-genai-structure-chat-agent.git structure-chat-agent
 cd structure_chat_agent
 ```
 
-2. Create a Python virtual environment:
+### Create a Python virtual environment:
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate  # On Linux/macOS
+# On Linux/macOS
+source .venv/bin/activate  
 # or
-.venv\Scripts\activate  # On Windows
+# On Windows
+.venv\Scripts\activate  
 ```
 
-3. Install dependencies:
+### Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure environment variables:
+### create a Structure zip file
+
+```
+zip -r ../structure_chat_agent.zip . -x "*.git*" -x "*__pycache__*"
+```
+
+### Configure environment variables:
 
 Create a `.env` file in the project root:
 ```bash
